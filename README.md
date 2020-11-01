@@ -246,6 +246,7 @@ View full directory of Kibana plugins
   
 
 - 配置
+  修改配置文件filebeat.yml
 
   （1）采集日志的目录路径
 
@@ -404,7 +405,7 @@ View full directory of Kibana plugins
   # ---------------------------- Elasticsearch Output ----------------------------
   output.elasticsearch:
     # Array of hosts to connect to.
-    #设置elasticsearch的IP和port
+    # set elasticsearch IP and port
     hosts: ["192.168.99.100:9200"]
   
     # Protocol - either `http` (default) or `https`.
