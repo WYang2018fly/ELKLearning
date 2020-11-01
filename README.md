@@ -246,6 +246,7 @@ View full directory of Kibana plugins
   
 
 - 配置
+
   修改配置文件filebeat.yml
 
   （1）采集日志的目录路径
@@ -282,7 +283,7 @@ View full directory of Kibana plugins
   
     # Paths that should be crawled and fetched. Glob based paths.
     paths:
-  		#需要采集的日志目录
+      #需要采集的日志目录
       - D:\var\log\cron-booking\*
       #- /var/log/*.log
       #- c:\programdata\elasticsearch\logs\*
