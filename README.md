@@ -114,7 +114,7 @@ docker run -d --name kibana -e ELASTICSEARCH_URL=http://192.168.99.100:9200 -p 5
 
 ### 3.访问
 
-通过浏览器访问http://192.168.99.100:5601,可以看到kibana的可视化界面的HOME页
+通过浏览器访问http://192.168.99.100:5601
 
 ```
 Observability
